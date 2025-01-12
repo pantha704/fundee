@@ -1,7 +1,6 @@
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Oswald } from "next/font/google";
-import Footer from "@/components/Footer";
 
 const oswald = Oswald({ subsets: ["latin"] });
 
@@ -101,7 +100,6 @@ export default function LandingPage() {
           <Link href="/signup">Get Started Now</Link>
         </Button>
       </section>
-      <Footer />
     </div>
   );
 }
