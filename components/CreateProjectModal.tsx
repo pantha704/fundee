@@ -78,7 +78,7 @@ export default function CreateProjectModal({
                 id="title"
                 value={title}
                 onChange={(e) => setTitle(e.target.value)}
-                className="col-span-3"
+                className="col-span-3 bg-white/10 backdrop-blur-sm border-white/20"
                 required
               />
             </div>
@@ -90,20 +90,20 @@ export default function CreateProjectModal({
                 id="description"
                 value={description}
                 onChange={(e) => setDescription(e.target.value)}
-                className="col-span-3"
+                className="col-span-3 bg-white/10 backdrop-blur-sm border-white/20"
                 required
               />
             </div>
             <div className="grid grid-cols-4 items-center gap-4">
               <Label htmlFor="goal" className="text-right text-white">
-                Goal (ETH)
+                Goal (XION)
               </Label>
               <Input
                 id="goal"
                 type="number"
                 value={goal}
                 onChange={(e) => setGoal(e.target.value)}
-                className="col-span-3"
+                className="col-span-3 bg-white/10 backdrop-blur-sm border-white/20"
                 min="0"
                 step="0.01"
                 required
@@ -118,7 +118,7 @@ export default function CreateProjectModal({
                 type="number"
                 value={duration}
                 onChange={(e) => setDuration(e.target.value)}
-                className="col-span-3"
+                className="col-span-3 bg-white/10 backdrop-blur-sm border-white/20"
                 min="1"
                 required
               />

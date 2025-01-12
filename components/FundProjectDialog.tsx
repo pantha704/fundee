@@ -31,7 +31,7 @@ export default function FundProjectDialog({
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     // Handle funding logic here
-    console.log(`Funding project ${projectId} with ${amount} ETH`);
+    console.log(`Funding project ${projectId} with ${amount} XION`);
     onClose();
   };
 
@@ -48,7 +48,7 @@ export default function FundProjectDialog({
           <div className="grid gap-4 py-4">
             <div className="grid grid-cols-4 items-center gap-4">
               <Label htmlFor="amount" className="text-right text-white">
-                Amount (ETH)
+                Amount (XION)
               </Label>
               <Input
                 id="amount"

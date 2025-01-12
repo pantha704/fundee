@@ -54,8 +54,8 @@ export default function ProjectCard({
             ></div>
           </div>
           <div className="flex justify-between text-sm text-muted-foreground">
-            <span>{raised} ETH raised</span>
-            <span>{goal} ETH goal</span>
+            <span>{raised} XION raised</span>
+            <span>{goal} XION goal</span>
           </div>
         </div>
       </CardContent>

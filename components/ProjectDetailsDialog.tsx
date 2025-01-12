@@ -45,8 +45,8 @@ export default function ProjectDetailsDialog({
             ></div>
           </div>
           <div className="flex justify-between text-sm text-muted-foreground mt-2">
-            <span>{project.raised} ETH raised</span>
-            <span>{project.goal} ETH goal</span>
+            <span>{project.raised} XION raised</span>
+            <span>{project.goal} XION goal</span>
           </div>
         </div>
         <div className="mt-4">
