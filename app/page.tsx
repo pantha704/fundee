@@ -101,9 +101,9 @@ export default function LandingPage() {
           <Link href="/signup">Get Started Now</Link>
         </Button>
       </section>
+      <Footer />
     </div>
   );
-  <Footer />;
 }
 
 function FeatureCard({
