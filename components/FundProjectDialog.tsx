@@ -41,7 +41,8 @@ export default function FundProjectDialog({
         <DialogHeader>
           <DialogTitle className="text-white">Fund Project</DialogTitle>
           <DialogDescription className="text-white">
-            Enter the amount you want to contribute to "{projectTitle}".
+            Enter the amount you want to contribute to &quot;{projectTitle}
+            &quot;.
           </DialogDescription>
         </DialogHeader>
         <form onSubmit={handleSubmit}>
